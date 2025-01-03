@@ -17,7 +17,32 @@ https://notesapp-backend.netlify.app
 - Response:
 
 ```json
-{}
+[   
+    {
+        id: 9,
+        tags: "terselesaikan",
+        body: "Fixed a bug in the authentication flow",
+        title: "Bug Fix",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 10,
+        tags: "belum terselesaikan",
+        body: "Implemented a new feature for user profile customization",
+        title: "New Feature",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 11,
+        tags: "terselesaikan",
+        body: "Refactored the codebase for better readability and performance",
+        title: "Code Refactor",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+]
 ```
 
 ### Get Detail of Note
@@ -29,7 +54,14 @@ https://notesapp-backend.netlify.app
 - Response:
 
 ```json
-{}
+{
+    id: 9,
+    tags: "terselesaikan",
+    body: "Fixed a bug in the authentication flow",
+    title: "Bug Fix",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+},
 ```
 
 ### Post Note
@@ -41,7 +73,12 @@ https://notesapp-backend.netlify.app
 - Response:
 
 ```json
-{}
+{
+    id: 9,
+    tags: "terselesaikan",
+    body: "Fixed a bug in the authentication flow",
+    title: "Bug Fix",
+}
 ```
 
 ### Edit Note
@@ -53,7 +90,14 @@ https://notesapp-backend.netlify.app
 - Response:
 
 ```json
-{}
+{
+    id: 9,
+    tags: "terselesaikan",
+    body: "Fixed a bug in the authentication flow",
+    title: "Bug Fix",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+},
 ```
 
 ### Delete Note
