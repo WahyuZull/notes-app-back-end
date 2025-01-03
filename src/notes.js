@@ -1,3 +1,68 @@
-const notes = [];
+const notes = [
+    {
+        id: 9,
+        tags: "terselesaikan",
+        body: "Fixed a bug in the authentication flow",
+        title: "Bug Fix",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 10,
+        tags: "belum terselesaikan",
+        body: "Implemented a new feature for user profile customization",
+        title: "New Feature",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 11,
+        tags: "terselesaikan",
+        body: "Refactored the codebase for better readability and performance",
+        title: "Code Refactor",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 12,
+        tags: "belum terselesaikan",
+        body: "Attended a meeting to discuss project requirements",
+        title: "Meeting Notes",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 13,
+        tags: "terselesaikan",
+        body: "Reviewed pull requests and provided feedback",
+        title: "Code Review",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 14,
+        tags: "belum terselesaikan",
+        body: "Wrote unit tests for the new feature",
+        title: "Unit Testing",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 15,
+        tags: "terselesaikan",
+        body: "Deployed the latest version to the staging environment",
+        title: "Deployment",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: 16,
+        tags: "belum terselesaikan",
+        body: "Updated project documentation",
+        title: "Documentation",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+];
 
 module.exports = notes;
